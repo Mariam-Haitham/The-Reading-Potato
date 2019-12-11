@@ -1,0 +1,92 @@
+a:hover{
+	color: #383838;
+}
+
+.container{
+	margin-top: 75px;
+}
+
+.table h2, .card h2{
+	font-family: 'Neucha', cursive;
+	font-size: 24px;
+	color: #152238;
+	font-weight: 600;
+}
+
+/*List page styling*/
+.table{
+	border: 2px solid #ff6600;
+	border-radius: 25px;
+	border-collapse: separate;
+	padding: 15px;
+}
+
+.table tr td{
+    border: none;
+}
+
+.table tr td{
+    border-bottom: 2px solid #ff6600;
+}
+
+.table tr:first-child td{
+    border-top: none;
+}
+
+.table tr:last-child td{
+    border-bottom: none;
+}
+
+.table h5{
+	font-family: 'Neucha', cursive;
+	font-size: 18px;
+	color: #152238;
+	font-weight: 500;
+	padding-left: 10px;
+}
+
+/*Detail page styling*/
+.card{
+	border: 2px solid #ff6600;
+	border-radius: 25px;
+	margin: 15px;
+	width: 1000px;
+	padding: 10px;
+}
+
+.card-header{
+	background-color: white;
+	border-bottom: 2px solid #ff6600;
+}
+
+
+.card-header p{
+	font-family: 'Neucha', cursive;
+	font-size: 20px;
+	color: #152238;
+	font-weight: 600;
+}
+
+.card-body{
+	font-family: 'Neucha', cursive;
+	font-size: 18px;
+	color: #383838;
+}
+
+.btn-edit{
+	border: 2px solid #ff6600;
+	background-color: white;
+	font-family: 'Neucha', cursive;
+	font-size: 18px;
+	color: #ff6600;
+
+}
+
+.btn-edit:hover{
+	border: 2px solid #ff6600;
+	background-color: #ff6600;
+	font-family: 'Neucha', cursive;
+	font-size: 18px;
+	color: white;
+
+}

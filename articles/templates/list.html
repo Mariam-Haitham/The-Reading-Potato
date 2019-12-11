@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}List{% endblock title %}
+
+{% block content %}
+<div class="container">
+  <table class="table">
+      {% for article in articles %}
+        <tr class="tr">
+          <td>
+            <a href="{% url 'detail' article.id %}">
+              <h2>{{article.title}}</h2>
+            </a>
+            <h5>By: {{article.owner.username}}</h5>
+          </td>
+        </tr>       
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock content %}

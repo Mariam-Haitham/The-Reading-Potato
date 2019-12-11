@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}Detail{% endblock title %}
+
+{% block content %}
+
+<br>
+<div class="container">
+  <div class="card">
+    <div class="card-header">
+      <h2>{{article.title}}</h2>
+      <p class="card-text">{{article.content}}</p>
+    </div>
+    <div class="card-body">
+      <p class="card-text">Author: {{article.owner.username}}</p>
+      <p class="card-text">Published At: {{article.date}}</p>
+      <button type="button" class="btn btn-create float-right btn-edit">Edit</button>
+    </div>
+  </div>
+</div>
+{% endblock content %}
